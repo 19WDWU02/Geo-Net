@@ -3,11 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   </head>
   <body>
-
+<!--
     <button>Get Measured</button>
-    <button>Get Reported</button>
+    <button>Get Reported</button> -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h1>Recent Earthquakes</h1>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-6">
+          <h3>Reported</h3>
+          <ul id="reportedContainer">
+
+          </ul>
+        </div>
+        <div class="col-6">
+          <h3>Measured</h3>
+          <ul id="measuredContainer">
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
 
     <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
     <script src="js/script.js" charset="utf-8"></script>
